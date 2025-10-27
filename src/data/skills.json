@@ -1,0 +1,32 @@
+{
+  "categories": {
+    "Data Science": [
+      { "name": "Python", "level": 95 },
+      { "name": "Pandas", "level": 90 },
+      { "name": "NumPy", "level": 90 },
+      { "name": "Data Analysis", "level": 85 },
+      { "name": "Data Visualization", "level": 85 }
+    ],
+    "AI/ML": [
+      { "name": "TensorFlow", "level": 85 },
+      { "name": "PyTorch", "level": 80 },
+      { "name": "Scikit-learn", "level": 90 },
+      { "name": "Deep Learning", "level": 85 },
+      { "name": "NLP", "level": 80 }
+    ],
+    "Web Development": [
+      { "name": "React", "level": 90 },
+      { "name": "Next.js", "level": 85 },
+      { "name": "Node.js", "level": 80 },
+      { "name": "Flask", "level": 90 },
+      { "name": "TypeScript", "level": 85 }
+    ],
+    "Tools & Technologies": [
+      { "name": "Git", "level": 90 },
+      { "name": "Docker", "level": 75 },
+      { "name": "MongoDB", "level": 80 },
+      { "name": "PostgreSQL", "level": 85 },
+      { "name": "AWS", "level": 70 }
+    ]
+  }
+}

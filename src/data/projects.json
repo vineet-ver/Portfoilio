@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "AI-Powered Calorie Calculator",
+      "description": "Intelligent nutrition analysis and recipe recommendation system using machine learning models.",
+      "image": "/projects/calorie-calculator.png",
+      "technologies": ["Python", "Flask", "TensorFlow", "React"],
+      "liveLink": "https://ai-powered-calorie-calculator-with-diet.onrender.com",
+      "githubLink": "https://github.com/vineet-ver/Ai-Powered-calorie-calculator-with-diet",
+      "date": "2025-09"
+    },
+    {
+      "id": 2,
+      "title": "LLM-Powered Chatbot Web App",
+      "description": "Automated data cleaning and preprocessing tool with ML model training capabilities.",
+      "image": "/projects/data-preprocessing.png",
+      "technologies": ["Flask", "Pandas", "Scikit-learn", "NumPy"],
+      "liveLink": "https://llm-chatbot-rziw.onrender.com/",
+      "githubLink": "https://github.com/vineet-ver/LLM-Chatbot",
+      "date": "2025-10"
+    },
+    {
+      "id": 3,
+      "title": "Phishing URL Detector",
+      "description": "AI-based tool for detecting phishing URLs using machine learning.",
+      "image": "/projects/phising.png",
+      "technologies": ["Python", "nmap", "urllib3", "Flask", "TensorFlow", "Scikit-learn"],
+      "liveLink": "https://phishing-url-detector-ug2s.onrender.com",
+      "githubLink": "https://github.com/vineet-ver/Phishing-URL-Detector",
+      "date": "2025-09"
+    },
+    {
+      "id": 4,
+      "title": "Ai-sketch creator",
+      "description": "AI-powered tool for generating artistic sketches from photos.",
+      "image": "/projects/sketch.png",
+      "technologies": ["Python", "Flask", "TensorFlow", "OpenCV"],
+      "liveLink": "",
+      "githubLink": "https://github.com/yourusername/recon-tool",
+      "date": "2025-10"
+    },
+    {
+      "id": 5,
+      "title": "Ai-Powered Career Path Finder",
+      "description": "AI-driven tool for recommending personalized career paths based on user skills and interests.",
+      "image": "/projects/career.png",
+      "technologies": ["Next.Js", "Tailwind CSS", "Node JS", "Supabase"],
+      "liveLink": "https://ai-powered-career-path-finder.vercel.app/",
+      "githubLink": "https://github.com/vineet-ver/AI-Powered-Career-Path-Finder",
+      "date": "2025-10"
+    },
+    {
+      "id": 6,
+      "title": "Text to Handwriting",
+      "description": "Convert digital text into realistic handwriting using deep learning models.",
+      "image": "/projects/handwritten.png",
+      "technologies": ["Python", "Pillow", "OpenCV", "Flask", "img2pdf"],
+      "liveLink": "https://text-to-handwriting-vb4v.onrender.com/",
+      "githubLink": "https://github.com/vineet-ver/Text-To-Handwriting",
+      "date": "2025-10"
+    }
+  ]
+}
