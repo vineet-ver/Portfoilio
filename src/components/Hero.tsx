@@ -156,7 +156,7 @@ export default function Hero() {
                 fontFamily: 'Orbitron',
               }}
             >
-              VINEET VERMA
+              VINEET
             </Typography>
 
             <Box sx={{ mb: 4, minHeight: '100px' }}>
@@ -383,32 +383,15 @@ export default function Hero() {
                     border: '3px solid rgba(0, 212, 255, 0.5)',
                   }}
                 >
-                  {/* Placeholder for profile photo */}
-                  <Box
-                    sx={{
-                      width: '100%',
-                      height: '100%',
-                      background: 'linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, rgba(187, 134, 252, 0.1) 100%)',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      fontSize: '6rem',
-                      fontWeight: 800,
-                      color: 'rgba(0, 212, 255, 0.3)',
-                      fontFamily: 'Orbitron',
-                    }}
-                  >
-                    VV
-                  </Box>
-                  {/* Replace the Box above with this when you have your photo:
+                  {/* Profile photo */}
                   <Image
-                    src="/your-photo.jpg"
+                    src="/projects/vineet-dp.jpg"
                     alt="Vineet Verma"
                     fill
-                    style={{ objectFit: 'cover' }}
                     priority
+                    sizes="(max-width: 768px) 300px, 350px"
+                    style={{ objectFit: 'cover' }}
                   />
-                  */}
                 </Box>
               </Box>
 
