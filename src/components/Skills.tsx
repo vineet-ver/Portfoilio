@@ -7,7 +7,10 @@ import {
   LinearProgress,
 } from '@mui/material';
 import { motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
 import skillsData from '@/data/skills.json';
+
+const SkillGlobe = dynamic(() => import('./SkillGlobe'), { ssr: false });
 
 interface Skill {
   name: string;
@@ -16,8 +19,30 @@ interface Skill {
 
 export default function Skills() {
   return (
-    <Box id="skills" sx={{ py: 10, background: 'background.default' }}>
-      <Container maxWidth="lg">
+    <Box id="skills" sx={{ py: 10, background: 'background.default', position: 'relative', overflow: 'hidden' }}>
+      {/* Background effects */}
+      <Box
+        component={motion.div}
+        animate={{
+          rotate: 360,
+        }}
+        transition={{
+          duration: 50,
+          repeat: Infinity,
+          ease: 'linear',
+        }}
+        sx={{
+          position: 'absolute',
+          width: '800px',
+          height: '800px',
+          borderRadius: '50%',
+          border: '1px solid rgba(0, 212, 255, 0.05)',
+          top: '-400px',
+          right: '-400px',
+        }}
+      />
+
+      <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -33,18 +58,24 @@ export default function Skills() {
               backgroundClip: 'text',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
+              fontFamily: 'Orbitron',
             }}
           >
-            Skills
+            SKILLS & EXPERTISE
           </Typography>
 
           <Typography
             variant="body1"
             align="center"
-            sx={{ mb: 6, color: 'text.secondary', maxWidth: '800px', mx: 'auto' }}
+            sx={{ mb: 4, color: 'text.secondary', maxWidth: '800px', mx: 'auto' }}
           >
-            Comprehensive expertise across multiple domains and technologies.
+            Comprehensive expertise across multiple domains and cutting-edge technologies
           </Typography>
+
+          {/* 3D Skill Globe */}
+          <Box sx={{ mb: 6 }}>
+            <SkillGlobe />
+          </Box>
 
           <Box sx={{ display: 'grid', gap: 4, gridTemplateColumns: { xs: '1fr', md: 'repeat(2, 1fr)' } }}>
             {Object.entries(skillsData.categories).map(([category, skills], catIndex) => (
