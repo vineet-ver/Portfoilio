@@ -8,7 +8,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Vineet Sharma | Data Scientist & Full Stack AI Engineer',
+  title: 'Vineet | Data Scientist & Full Stack AI Engineer',
   description: 'Portfolio of Vineet Sharma - Data Scientist, Web Developer, Software Developer, and Full Stack AI Engineer specializing in AI/ML, web development, and innovative solutions.',
   keywords: ['Data Scientist', 'AI Engineer', 'Web Developer', 'Full Stack', 'Machine Learning', 'Vineet Sharma'],
   authors: [{ name: 'Vineet Sharma' }],
