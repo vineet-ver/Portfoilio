@@ -52,7 +52,7 @@ export default function Resume() {
                   variant="contained"
                   size="large"
                   startIcon={<DownloadIcon />}
-                  href="/resume-2025-vineet-best.pdf"
+                  href="/projects/resume-2025-vineet-best.pdf"
                   download
                   sx={{
                     background: 'linear-gradient(135deg, #00d4ff 0%, #bb86fc 100%)',
@@ -69,7 +69,7 @@ export default function Resume() {
                   variant="outlined"
                   size="large"
                   startIcon={<VisibilityIcon />}
-                  href="/resume.pdf"
+                  href="/projects/resume-2025-vineet-best.pdf"
                   target="_blank"
                   sx={{
                     borderColor: 'primary.main',
@@ -90,7 +90,7 @@ export default function Resume() {
             {/* Embedded PDF Viewer */}
             <Box sx={{ mt: 4, height: '600px', width: '100%' }}>
               <iframe
-                src="/resume-2025-vineet-best.pdf"
+                src="/projects/resume-2025-vineet-best.pdf"
                 width="100%"
                 height="100%"
                 style={{ border: 'none', borderRadius: '8px' }}
