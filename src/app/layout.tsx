@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   title: 'Vineet | Data Scientist & Full Stack AI Engineer',
   description: 'Portfolio of Vineet Sharma - Data Scientist, Web Developer, Software Developer, and Full Stack AI Engineer specializing in AI/ML, web development, and innovative solutions.',
   keywords: ['Data Scientist', 'AI Engineer', 'Web Developer', 'Full Stack', 'Machine Learning', 'Vineet Sharma'],
-  authors: [{ name: 'Vineet Sharma' }],
+  authors: [{ name: 'Vineet ' }],
   openGraph: {
-    title: 'Vineet Sharma | Portfolio',
+    title: 'Vineet | Portfolio',
     description: 'Data Scientist, Web Developer & Full Stack AI Engineer',
     type: 'website',
   },
