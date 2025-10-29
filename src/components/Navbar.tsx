@@ -67,7 +67,7 @@ export default function Navbar() {
                 }}
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               >
-                Vineet Verma
+                Vineet
               </Typography>
             </motion.div>
 
